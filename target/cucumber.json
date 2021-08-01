@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2349483900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Ordering a costliest and cheapest item from product catalogue",
+        "description": "",
+        "id": "placing-an-order-for-costliest-and-cheapest-items;ordering-a-costliest-and-cheapest-item-from-product-catalogue;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 678063300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1554391600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I logged into the application \"https://www.saucedemo.com\" using the valid user credentials \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.saucedemo.com",
+                  "offset": 31
+                },
+                {
+                  "val": "standard_user",
+                  "offset": 92
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 112
+                }
+              ],
+              "location": "PurchaseSteps.loggedIntoApplication(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221877500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have sorted the producs by price option \"high to low\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "high to low",
+                  "offset": 43
+                }
+              ],
+              "location": "PurchaseSteps.sortedProducsByPriceOption(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530097700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add to cart the costliest and cheapest items from the product list",
+            "match": {
+              "location": "PurchaseSteps.addItemsToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1728648400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the checkout details \"First Name 1\", \"Last Name 1\" and \"SW1A 2AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First Name 1",
+                  "offset": 30
+                },
+                {
+                  "val": "Last Name 1",
+                  "offset": 46
+                },
+                {
+                  "val": "SW1A 2AA",
+                  "offset": 64
+                }
+              ],
+              "location": "PurchaseSteps.enterCheckoutDetails(String,String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132390100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see the success \"THANK YOU FOR YOUR ORDER\" on the confirmation page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "THANK YOU FOR YOUR ORDER",
+                  "offset": 37
+                }
+              ],
+              "location": "PurchaseSteps.validationOnConfirmationPage(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Placing an order for costliest and cheapest items",
+    "description": "As a valid user, \r\nI want to place an order for costliest and cheapest item",
+    "id": "placing-an-order-for-costliest-and-cheapest-items",
+    "keyword": "Feature",
+    "uri": "purchase.feature"
+  }
+]
