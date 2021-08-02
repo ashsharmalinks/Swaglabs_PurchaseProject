@@ -25,9 +25,11 @@ Install Eclipse
 2. unzip the folder
 3. Goto Eclipse and Open projects from file system
 4. Select the unzip folder
+
 or
+
 1. git clone https://github.com/ashsharmalinks/Swaglabs_PurchaseProject.git
-2. Import the porject in Eclipse
+2. Import the project in Eclipse
 **To Run the project
 Option 1 : goto runners folder under src/test/java and open testrunner.java 
 Right click the file and run the project as Junit 
