@@ -13,7 +13,7 @@ public class Cart_Page extends BasePage {
 	public Cart_Page() throws IOException {
 		super();
 	}
-
+/*Click checkout button */
 	public void clickOnCheckOutButton() throws InterruptedException, IOException {
 		waitAndClickElement(checkout_button);
 
