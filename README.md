@@ -19,8 +19,17 @@ Steps:
 7. Finish the purchase
 Pre-requisite
 For setup, read and follow the below instructions:
-Install GIT 
-Install JDK 
 Install Eclipse
 ----------------
-Open a Git command: 
+1. Download the code from github
+2. unzip the folder
+3. Goto Eclipse and Open projects from file system
+4. Select the unzip folder
+
+**To Run the project
+Option 1 : goto runners folder under src/test/java and open testrunner.java 
+Right click the file and run the project as Junit 
+
+**Option 2 : goto features folder under src/test/java
+** Right click and run as cucumber feature
+
