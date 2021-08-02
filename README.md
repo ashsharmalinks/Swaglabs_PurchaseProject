@@ -21,7 +21,7 @@ Pre-requisite
 For setup, read and follow the below instructions:
 Install Eclipse
 ----------------
-1. Download the code from github
+1. Download the ZIP from github
 2. unzip the folder
 3. Goto Eclipse and Open projects from file system
 4. Select the unzip folder
